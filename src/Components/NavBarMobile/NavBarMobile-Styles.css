@@ -1,0 +1,34 @@
+.container-navbar-mobile{
+    display: none;
+  }
+
+  
+@media only screen and (max-width: 900px) and (min-width: 600px){
+    .container-navbar-mobile{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 600px){  
+  
+
+    .container-navbar-mobile{
+        display: block;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #FFF0E1;
+        z-index: 1;
+    }
+  
+  .navbar-mobile{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+  }
+  
+  .navbar-mobile img{
+    width: 35px;
+  }
+  
+  }

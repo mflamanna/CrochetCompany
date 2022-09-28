@@ -1,0 +1,89 @@
+
+.card-top1{
+    width: 100%;
+    background-color: #F8C2AC;
+    border-radius: 15%;
+    box-shadow: inset 0px 4px 4px #B24048;
+    overflow: hidden;
+  }
+  
+  
+  .card-texts{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gayathri';
+    color: #B24048;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 3%;
+    font-size: 20px;
+    margin-top: 4%;
+    position: relative;
+  }
+
+  .card-title{
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+  }
+  
+  .add-button{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #FF9861;
+    margin:0px auto;
+    margin-left: 10px;
+    padding: 2%;
+    text-align: center;
+    opacity: 0.5;
+    transition:all .5s ease-in-out;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+  }
+  
+  .add-button > p {
+    color: #B24048;
+    font-size: 1.5em;
+    font-family: 'Gayathri';
+    font-weight: 700;
+  }
+  
+  .add-button:hover{
+    opacity: 1;
+  }
+  
+  .card-photo{
+    overflow: hidden;
+  }
+  
+  .card-photo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-top{
+    position: relative;
+  }
+  
+  .favorite-product{
+    width: 30px;
+    position: absolute;
+    top: 8%;
+    right: 8%
+  }
+  
+  .card-all1{
+    margin: 2%;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .detail-page{
+    display: flex;
+    justify-content: center;
+  }

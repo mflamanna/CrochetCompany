@@ -1,0 +1,19 @@
+.clear-cart{
+    width: 120px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #FF9861;
+    opacity: 0.5;
+    transition:all .5s ease-in-out;
+    color: #B24048;
+    margin: 1%;
+}
+
+.clear-cart:hover{
+    opacity: 1;
+}
+
+.section-cart{
+    display: flex;
+    justify-content: center;
+}

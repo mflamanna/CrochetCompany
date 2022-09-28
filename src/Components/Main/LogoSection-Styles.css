@@ -1,0 +1,100 @@
+
+  
+  .crochetText{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vw;
+    line-height: 182px;
+    -webkit-text-stroke: 2px #B24048;
+    color: transparent;
+    position: absolute;
+    left: 53%;
+    bottom: 37%;
+    background-color: transparent;
+  }
+  
+  .companyText{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    line-height: 121px;
+    color: #B24048;
+    position: absolute;
+    bottom: 30%;
+    left: 53%;
+    background-color: transparent;
+  }
+  
+  .logoFlores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  }
+  
+  .imagenFlores{
+    position: relative;
+    transform: translate(50% 50%);
+    padding-bottom: 1em;
+    width: 32%;
+    margin-bottom: 2em;
+    right: 6%
+  }
+  
+  .starMain{
+    position: absolute;
+    display: flex;
+    right: 91%;
+    bottom: 10%;
+    width: 9%;
+  }
+
+
+@media only screen and (max-width: 600px){  
+
+  .imagenFlores{
+    position: relative;
+    transform: translate(50% 50%);
+    padding-bottom: 1em;
+    width: 60%;
+    right: 5%;
+    margin-bottom: 6.5em;
+    margin-top: 6.5em;
+  }
+  
+  .crochetText{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 182px;
+    -webkit-text-stroke: 2px #B24048;
+    color: transparent;
+    position: absolute;
+    left: 60%;
+    bottom: 34%;
+    background-color: transparent;
+  }
+  
+  .companyText{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vw;
+    line-height: 121px;
+    color: #B24048;
+    position: absolute;
+    bottom: 34%;
+    left: 60%;
+    background-color: transparent;
+  }
+
+  .starMain{
+    display: none;
+}
+}

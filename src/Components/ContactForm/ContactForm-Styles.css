@@ -1,0 +1,50 @@
+
+.pageContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .formContact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gayathri';
+    color: #B24048;
+    font-size: 15px;
+    width: 60%
+    ;
+  }
+  
+  .inputContact{
+    display: flex;
+    width: 100%;
+  }
+  
+  .inputButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 100px;
+    background-color: #FF8E80;
+    margin: 3% 3% 3% 0%;
+    border-radius: 30px;
+  }
+
+  .whatsapp-button{
+    width: 50px;
+    margin: 20px;
+  }
+  
+  .text-contact{
+    color: #B24048;
+    font-family: 'Gayathri';
+    margin-top: 20px;
+
+  }
+
+  @media only screen and (max-width: 600px){  
+    
+  }
