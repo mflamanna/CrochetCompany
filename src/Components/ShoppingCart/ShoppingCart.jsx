@@ -7,12 +7,22 @@ import SumCarrito from './SumCarrito'
 function ShoppingCart() {
 
 const [itemsCarrito, setItemsCarrito] = useState([])
+const [valorTotal, setValorTotal] = useState([0])
 
 useEffect(() => {
   const cartFromLocalStorage = JSON.parse(localStorage.getItem("dataCart") || '[]')
   setItemsCarrito(cartFromLocalStorage)
-  console.log(cartFromLocalStorage)
+  sumarPrecios()
 }, [])
+
+const sumarPrecios = ()=>{
+  let total = itemsCarrito.reduce((a, b)=>{
+    
+   return  a + parseInt(b.precio)
+   // return 170
+  },0)
+  setValorTotal(total)
+}
 
 
   return (
@@ -24,8 +34,18 @@ useEffect(() => {
                     ))
                     }
         </div>
-        <div className='cart-text'>
-         
+        <div className='cart-card'>
+          <p className='title-cart'>Productos</p>
+          <div className='cart-text'>
+            
+            {
+              itemsCarrito.map((item,index)=>(
+                <SumCarrito key={index} modelo={item.modelo} precio={item.precio}/>
+              ))
+
+            }
+            <p className='total-cart'>Total: <span>$ {valorTotal}</span></p>
+          </div>
         </div>
     </div>
   )

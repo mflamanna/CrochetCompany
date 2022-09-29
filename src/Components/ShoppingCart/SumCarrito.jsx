@@ -1,14 +1,11 @@
 import React from 'react'
 
-function SumCarrito(modelo, precio) {
+function SumCarrito({modelo, precio}) {
   return (
-    <>
-        <p className='title-cart'>Productos</p>
-        <p>{modelo}</p>
-        <p>{precio}</p>
-        <br />
-        <p>Total</p>
-    </>
+    <div className='carrito-item'>
+        <p className='one'>{modelo}</p>
+        <p className='two'>{precio}</p>
+    </div>
   )
 }
 

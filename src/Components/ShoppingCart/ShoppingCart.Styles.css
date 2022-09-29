@@ -11,19 +11,40 @@
     margin: 3%;
 }
 
-.cart-text{
+.cart-card{
     width: 30%;
     background-color: #F8C2AC;
     border-radius: 15px;
     box-shadow: inset 0px 4px 4px #B24048;
     overflow: hidden;
+}
+
+.cart-text{
     font-family: 'Gayathri';
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+    color: #B24048;
+    padding: 4%;
 }
 
 .title-cart{
     font-size: 30px;
     margin: 3%;
     color: #B24048;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gayathri';
+}
+
+.total-cart{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    font-size: 25px;
+}
+
+.carrito-item{
+    display: flex;
+    justify-content: space-between;
 }
