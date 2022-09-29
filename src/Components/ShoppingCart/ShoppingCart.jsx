@@ -9,21 +9,19 @@ function ShoppingCart() {
 const [itemsCarrito, setItemsCarrito] = useState([])
 const [valorTotal, setValorTotal] = useState([0])
 
+const sumarPrecios = ()=>{
+  let total = itemsCarrito.reduce((a, b)=>{
+    
+   return  parseInt(a) + parseInt(b.precio)
+   // return 170
+  },0)
+  setValorTotal(total)
+}
 useEffect(() => {
   const cartFromLocalStorage = JSON.parse(localStorage.getItem("dataCart") || '[]')
   setItemsCarrito(cartFromLocalStorage)
   sumarPrecios()
 }, [])
-
-const sumarPrecios = ()=>{
-  let total = itemsCarrito.reduce((a, b)=>{
-    
-   return  a + parseInt(b.precio)
-   // return 170
-  },0)
-  setValorTotal(total)
-}
-
 
   return (
     <div className='cart-page'>

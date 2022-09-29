@@ -3,7 +3,7 @@ import './LoadingPage-Styles.css'
 
 function LoadingHome() {
   return (
-    <div class="lds-heart"><div></div></div>
+    <div className="lds-heart"><div></div></div>
   )
 }
 

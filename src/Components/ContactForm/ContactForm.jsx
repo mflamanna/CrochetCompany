@@ -1,7 +1,6 @@
 import React from 'react'
 import './ContactForm-Styles.css'
 import whatsappImg from '../../Assets/Img/whatsapp.svg'
-import { Link } from 'react-router-dom'
 
 function ContactForm() {
   return (

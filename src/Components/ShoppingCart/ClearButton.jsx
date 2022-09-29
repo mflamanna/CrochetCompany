@@ -5,8 +5,9 @@ function ClearButton() {
 
 const clearCart = ()=>{
   localStorage.clear();
-  window.location.reload(false);
+  window.location.reload();
 }
+
 
   return (
     <div className='section-cart'>

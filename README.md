@@ -2,9 +2,9 @@
 
   <img src="./src/Assets/Img/readmeLogo.png" alt="logo" width="350" height="auto" />
   
-  <p>
+  
   https://crochetcompany.netlify.app/
-  </p>
+  
   
   </div>
 
@@ -30,6 +30,8 @@
 ## ⭐ About the Project
 La idea del proyecto surge de mi hobby por el tejido en crochet, me pareció interesante poder crear un e-commerce para su comercialización.
 
+Presentación del proyecto -> https://www.canva.com/design/DAFGFqrxfrE/azfFyrenlhYPa4K-WbagFg/view?utm_content=DAFGFqrxfrE&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent
+
 <!-- Screenshots -->
 ### 📷 Screenshots
 
@@ -49,12 +51,13 @@ La idea del proyecto surge de mi hobby por el tejido en crochet, me pareció int
 <!-- Features -->
 ### 🎯 Features
 
-- Lectura de información desde una API, utilizando Sheetsu
-- Barra de Búsqueda
+- Consumo de datos desde una API, utilizando Sheetsu
+- Barra de Búsqueda live
 - Opción de favoritos
 - Suma de productos al carrito
 - Vaciado total del carrito
-- Contacto via Whatsapp a número móvil específico
+- Contacto via Whatsapp
+- Diseño responsive
 
 <!-- Color Reference -->
 ### 🎨 Color Reference
