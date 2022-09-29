@@ -35,7 +35,7 @@ La idea del proyecto surge de mi hobby por el tejido en crochet, me pareció int
 <div align="center"> 
   <img src="./src/Assets/Img/figmaOrdenador.png" alt="screenshot" />
   <br>
-  <img src="./src/Assets/Img/figmaMovil.png" alt="screenshot" />
+  <img src="./src/Assets/Img/figmaMovil.png" width="150" alt="screenshot" />
 </div>
 
 
