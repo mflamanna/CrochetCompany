@@ -6,7 +6,8 @@
     opacity: 0.5;
     transition:all .5s ease-in-out;
     color: #B24048;
-    margin: 1%;
+    margin: 2%;
+    margin-bottom: 3%;
 }
 
 .clear-cart:hover{

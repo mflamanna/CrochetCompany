@@ -13,8 +13,7 @@
     font-family: 'Gayathri';
     color: #B24048;
     font-size: 15px;
-    width: 60%
-    ;
+    width: 60%;
   }
   
   .inputContact{
@@ -26,11 +25,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2%;
-    width: 100px;
-    background-color: #FF8E80;
-    margin: 3% 3% 3% 0%;
-    border-radius: 30px;
+    width: 120px;
+    height: 36px;
+    border-radius: 15px;
+    background-color: #FF9861;
+    opacity: 0.5;
+    transition:all .5s ease-in-out;
+    color: #B24048;
+    margin: 2%;
+    margin-bottom: 3%;
   }
 
   .whatsapp-button{
@@ -43,8 +46,4 @@
     font-family: 'Gayathri';
     margin-top: 20px;
 
-  }
-
-  @media only screen and (max-width: 600px){  
-    
   }

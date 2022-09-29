@@ -29,7 +29,7 @@ export const ProductInfo = () => {
   };
 
   return (
-    <div className="detail-page">
+    <div className="detail-page-info">
         { loading?
                     product.map((item,index)=>(
                         <CardProductInfo  key={index} modelo={item.modelo} precio={item.precio} imagen={item.imagen} element={item} id={item.id} descripcion={item.descripcion}/>

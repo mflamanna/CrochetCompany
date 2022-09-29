@@ -3,6 +3,7 @@
   <img src="./src/Assets/Img/readmeLogo.png" alt="logo" width="350" height="auto" />
   
   <p>
+  https://crochetcompany.netlify.app/
   </p>
   
   </div>
@@ -35,7 +36,7 @@ La idea del proyecto surge de mi hobby por el tejido en crochet, me pareció int
 <div align="center"> 
   <img src="./src/Assets/Img/figmaOrdenador.png" alt="screenshot" />
   <br>
-  <img src="./src/Assets/Img/figmaMovil.png" width="150" alt="screenshot" />
+  <img src="./src/Assets/Img/figmaMovil.png" width="200" alt="screenshot" />
 </div>
 
 

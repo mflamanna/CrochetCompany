@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import CardProduct from '../ProductList/CardProduct/CardProduct'
 import CardShopping from './CardShopping'
+import ClearButton from './ClearButton'
 import './ShoppingCart.Styles.css'
 import SumCarrito from './SumCarrito'
 
@@ -46,7 +46,9 @@ const sumarPrecios = ()=>{
             }
             <p className='total-cart'>Total: <span>$ {valorTotal}</span></p>
           </div>
+          <ClearButton/>
         </div>
+        
     </div>
   )
 }

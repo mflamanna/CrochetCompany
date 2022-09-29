@@ -17,21 +17,22 @@ function CardProductInfo({modelo, precio, imagen, element, id, descripcion}) {
   
 
   return (
-    <div className='card-all1'>
-        <div className='card-top'>
+    <div className='card-all-info'>
+        <div className='card-top-info'>
 
            <ImgFavorites elementCrochet={element}/>
 
-          <div className='card-photo'>
+          <div className='card-photo-info'>
               <img src={require(`../../Assets/Img/${imagen}.png`)} alt="Producto" />
           </div>
         </div>
-        <div className='card-texts'>
-            <p className='card-title'>{modelo}</p>
+        <div className='card-texts-info'>
+            <p className='card-title-info'>{modelo}</p>
             <p>${precio}</p>
             <br />
             <p>{descripcion}</p>
-            <button onClick={addToCart} className='add-button'>
+            <p>Diseño : <a href='https://aleli.com.ar/'>Aleli Deco Crochet</a></p>
+            <button onClick={addToCart} className='add-button-info'>
               +
             </button>
         </div>
