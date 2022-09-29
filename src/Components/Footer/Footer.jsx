@@ -17,7 +17,7 @@ function Footer() {
         <a href='https://www.instagram.com/'>
         <img className='icons-footer'src={instagramImg} alt="Instagram" />
         </a>
-        <a href='https://wa.me/34603037977'>
+        <a href='https://wa.me/34603037000'>
         <img className='icons-footer'src={whatsappImg} alt="Whatsapp" />
         </a>
       </div>

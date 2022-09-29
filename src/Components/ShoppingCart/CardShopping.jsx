@@ -1,23 +1,23 @@
+import dataCart from '../DataCart';
+import './CardShopping-Styles.css'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import dataCart from '../../DataCart'
-import './CardProduct-Styles.css'
-import ImgFavorites from './ImgFavorites'
-import addFavorites from '../../../Assets/Img/addFavorites.svg'
-import deleteFavorites from '../../../Assets/Img/deleteFavorites.svg'
-import dataFavorites from '../../DataFavorites'
+import addFavorites from '../../Assets/Img/addFavorites.svg'
+import deleteFavorites from '../../Assets/Img/deleteFavorites.svg'
+import dataFavorites from '../DataFavorites';
 
-function CardProduct({modelo, precio, imagen, element, id}) {
+
+
+function CardShopping({modelo, precio, imagen, element, id}) {
   const [changeFavorites, setChangeFavorites] = useState([])
 
-  
   function addToCart(){
     dataCart.push(element);
     localStorage.setItem("dataCart", JSON.stringify(dataCart));
     
   }
 
-  
+    
   const clickFavorites = ()=>{
     if (changeFavorites === false){
      setChangeFavorites(true);
@@ -33,12 +33,14 @@ function CardProduct({modelo, precio, imagen, element, id}) {
    }
 
   return (
-    <div className='card-all'>
+    <div className='card-all-shopping'>
         <div className='card-top'>
-            <img onClick={clickFavorites} className='favorite-product' id="imgChange" src={changeFavorites? addFavorites : deleteFavorites} alt="Favorito" />
-        <div className='card-photo'>
+
+        <img onClick={clickFavorites} className='favorite-product' id="imgChange" src={changeFavorites? addFavorites : deleteFavorites} alt="Favorito" />
+
+          <div className='card-photo'>
             <Link to={`/detalle/${id}`}>
-              <img src={require(`../../../Assets/Img/${imagen}.png`)} alt="Producto" />
+              <img src={require(`../../Assets/Img/${imagen}.png`)} alt="Producto" />
             </Link>
           </div>
         </div>
@@ -53,4 +55,4 @@ function CardProduct({modelo, precio, imagen, element, id}) {
   )
 }
 
-export default CardProduct;
+export default CardShopping;

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import CardProduct from '../ProductList/CardProduct/CardProduct'
+import CardShopping from './CardShopping'
 import './ShoppingCart.Styles.css'
+import SumCarrito from './SumCarrito'
 
 function ShoppingCart() {
 
@@ -18,13 +20,12 @@ useEffect(() => {
         <div className="container-cart">
                 {
                     itemsCarrito.map((item,index)=>(
-                        <CardProduct key={index} modelo={item.modelo} precio={item.precio} imagen={item.imagen} element={item}/>
+                        <CardShopping key={index} modelo={item.modelo} precio={item.precio} imagen={item.imagen} element={item}/>
                     ))
                     }
         </div>
         <div className='cart-text'>
-          <p className='title-cart'>Total</p>
-          <p></p>
+         
         </div>
     </div>
   )

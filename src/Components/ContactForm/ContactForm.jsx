@@ -23,7 +23,7 @@ function ContactForm() {
             <input className='inputButton' type="Submit" />
         </form>
         <h2 className='text-contact'>Si preferis podes enviarme un whatsapp</h2>
-        <a href='https://wa.me/34603037977'>
+        <a href='https://wa.me/34603037000'>
             <img className="whatsapp-button" src={whatsappImg} alt="Whatsapp" />
         </a>
     </div>
